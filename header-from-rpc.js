@@ -1,6 +1,6 @@
 'use strict'
 const BlockHeader = require('./header')
-const ethUtil = require('ethereumjs-util')
+const ethUtil = require('newchainjs-util')
 
 module.exports = blockHeaderFromRpc
 

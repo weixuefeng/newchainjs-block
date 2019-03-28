@@ -1,5 +1,5 @@
 const Common = require('ethereumjs-common').default
-const utils = require('ethereumjs-util')
+const utils = require('newchainjs-util')
 const BN = utils.BN
   /**
    * An object that repersents the block header

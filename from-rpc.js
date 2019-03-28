@@ -1,6 +1,6 @@
 'use strict'
-const Transaction = require('ethereumjs-tx')
-const ethUtil = require('ethereumjs-util')
+const Transaction = require('newchainjs-tx')
+const ethUtil = require('newchainjs-util')
 const Block = require('./')
 const blockHeaderFromRpc = require('./header-from-rpc')
 
@@ -41,7 +41,7 @@ function blockFromRpc (blockParams, uncles) {
 
 function normalizeTxParams (_txParams) {
   const txParams = Object.assign({}, _txParams)
-  // hot fix for https://github.com/ethereumjs/ethereumjs-util/issues/40
+  // hot fix for https://github.com/ethereumjs/newchainjs-util/issues/40
   txParams.gasLimit = (txParams.gasLimit === undefined) ? txParams.gas : txParams.gasLimit
   txParams.data = (txParams.data === undefined) ? txParams.input : txParams.data
   // strict byte length checking

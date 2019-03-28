@@ -1,6 +1,6 @@
 const tape = require('tape')
 const Common = require('ethereumjs-common').default
-const utils = require('ethereumjs-util')
+const utils = require('newchainjs-util')
 const rlp = utils.rlp
 const Header = require('../header.js')
 const Block = require('../index.js')

@@ -1,4 +1,4 @@
-const utils = require('ethereumjs-util')
+const utils = require('newchainjs-util')
 const tape = require('tape')
 const Block = require('../')
 const BN = utils.BN

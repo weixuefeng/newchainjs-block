@@ -1,6 +1,6 @@
 {
-  "name": "ethereumjs-block",
-  "version": "2.2.0",
+  "name": "newchainjs-block",
+  "version": "0.1.0",
   "description": "Provides Block serialization and help functions",
   "main": "index.js",
   "files": [
@@ -17,23 +17,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ethereumjs/ethereumjs-block.git"
+    "url": "https://github.com/xiawu/newchainjs-block.git"
   },
   "keywords": [
-    "ethereum",
+    "newchain",
     "block"
   ],
   "author": "mjbecze (mb@ethdev.com)",
   "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/ethereumjs/ethereumjs-block/issues"
+    "url": "https://github.com/xiawu/newchainjs-block/issues"
   },
-  "homepage": "https://github.com/ethereumjs/ethereumjs-block#readme",
+  "homepage": "https://github.com/xiawu/newchainjs-block#readme",
   "dependencies": {
     "async": "^2.0.1",
     "ethereumjs-common": "^1.1.0",
-    "ethereumjs-tx": "^1.2.2",
-    "ethereumjs-util": "^5.0.0",
+    "newchainjs-tx": "^0.1.0",
+    "newchainjs-util": "^0.1.0",
     "merkle-patricia-tree": "^2.1.2"
   },
   "devDependencies": {
