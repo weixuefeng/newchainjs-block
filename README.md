@@ -10,7 +10,7 @@
 Implements schema and functions related to Ethereum's block. 
 
 # INSTALL
-`npm install ethereumjs-block`
+`npm install newchainjs-block`
 
 # BROWSER  
 This module work with `browserify`.
