@@ -1,6 +1,6 @@
 {
   "name": "newchainjs-block",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Provides Block serialization and help functions",
   "main": "index.js",
   "files": [
@@ -32,8 +32,8 @@
   "dependencies": {
     "async": "^2.0.1",
     "ethereumjs-common": "^1.1.0",
-    "newchainjs-tx": "^0.1.0",
-    "newchainjs-util": "^0.1.0",
+    "newchainjs-tx": "latest",
+    "newchainjs-util": "latest",
     "merkle-patricia-tree": "^2.1.2"
   },
   "devDependencies": {
